@@ -21,7 +21,7 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle +
      ground_clearance + AWD, data=MechaCar_mpg))
 
 # Deliverable 2
-
+# Summary tables
 
 # Import and read csv file as a table  
 
@@ -43,8 +43,35 @@ lot_summary <- SuspensionCoil %>% group_by(Manufacturing_Lot) %>%
             Variance = var(PSI),
             SD = sd(PSI), .groups= 'keep')
 
+# Deliverable 3
+# T-test on suspension coils to determine lot difference from mean of 1,500 psi
 
-  
+
+t.test(SuspensionCoil$PSI, mu=1500)
+
+
+# 3 more scripts using t.test and its subset argument to determine
+# PSI for each manufacturing lot is statistically different from the population
+# mean of 1,500 psi 
+
+t.test(subset(SuspensionCoil, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
+
+t.test(subset(SuspensionCoil, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
+
+t.test(subset(SuspensionCoil, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
+
+# Deliverable 4
+
+# Study design: MechaCar vs Competition
+
+
+
+
+
+
+
+
+
   
   
   
