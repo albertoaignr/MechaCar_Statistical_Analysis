@@ -48,15 +48,16 @@ Lot 3 p-value is < 0.05, so we reject the null hypothesis (statistical similarit
 
 As the data we have from the MechaCar reflects mpg and it was found it was somewhat reliable to take it as a statistically significant, we could compare with dataset of mpg of different brands.
 
-We can compare with Highway Miles per Galon consumed as they're the 
-highest values 
+Highway Miles per Galon consumed could be used to compare as they represents the highest values (optimal use). We could determine if Horsepower vs mpg relationship is similar or better than the other cars. 
 
-See if Horsepower vs mpg is similar or better relationship with other cars. 
+Null Hypothesis: No statistical diference.
 
-Waht metrics?
-Null/alternative hypothesis?
-What test and why?
-What data is needed?
+Alternative Hypothesis: Statistically potential indicator of a better performance. 
+
+Data about the horsepower of the MechaCars need to be collected and a two-sample t-test could be perfomed to determine the statistical difference between the distribution means form the two. 
+
+
+
 
 
 
