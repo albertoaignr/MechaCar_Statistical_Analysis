@@ -31,9 +31,15 @@ Perfomed t-tests on Suspension Coils data to determine if all manufacturing lots
 
 Starting of with the whole data which agregates all 3 lots.
 
-<img src='/Resources/M16_Deliverable3.png' height=300px width=500px>
+<img src='/Resources/M16_Deliverable3.png' height=200px width=400px>
 
-And the results for the different lots are pictured in the following image 
+Asuming the average value of 1500psi, the results for the different lots are pictured in the following image.
+
+<img src='/Resources/M16_Deliverable3_2.png' height=600px width=500px>
+
+For the first two lots, as p-value was > 0.05, we dont have sufficient evidence to reject the null hypothesis and we would state that the two means are statistically similar.
+
+Lot 3 p-value is < 0.05, so we reject the null hypothesis (statistical similarity) same as we inspected already with the consistency of results for coil. This difference could be seen from the p-value of the aggregation of lots and would have been an error to assume that all the other lots fall off the statistical importance they have. 
 
 
 # Deliverable 4
